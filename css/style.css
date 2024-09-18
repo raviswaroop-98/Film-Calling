@@ -298,7 +298,14 @@ table {
 	box-shadow: 0px 3px 0px 0px #E04343;
 	padding:20px 0;
 }
-.dark-box:hover,.dark-box:focus {
+.dark-box-1 {
+	background: #F3F5F8;
+	-webkit-box-shadow: 0px 3px 0px 0px #E04343;
+	-moz-box-shadow: 0px 3px 0px 0px #E04343;
+	box-shadow: 0px 3px 0px 0px #E04343;
+	padding:6px 0;
+}
+.dark-box:hover,.dark-box:focus,.dark-box-1:hover,.dark-box-1:focus {
 	-webkit-box-shadow: 0px 3px 0px 0px #FFE801;
 	-moz-box-shadow: 0px 3px 0px 0px #FFE801;
 	box-shadow: 0px 3px 0px 0px #FFE801;
@@ -1022,6 +1029,10 @@ ul.social-buttons li:last-child {
 button,button:focus,button:hover,button:active {
 	outline: none!important;
 }
+
+.hidden{
+	display: none;
+  }
 /* ==========================================================================Footer========================================================================== */
 footer a {
 	color:#a1a9b0;
